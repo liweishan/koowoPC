@@ -1,0 +1,370 @@
+header {
+  width: 100%;
+  height: 52px;
+  background: #181818; }
+  header nav {
+    width: 1200px;
+    height: 52px;
+    margin: 0 auto; }
+    header nav h1 {
+      width: 106px;
+      height: 52px; }
+    header nav .left_ul {
+      width: 400px; }
+      header nav .left_ul li {
+        line-height: 52px;
+        height: 52px;
+        margin-left: 40px; }
+        header nav .left_ul li a {
+          color: #fff;
+          font-size: 18px; }
+        header nav .left_ul li .active {
+          color: #feca2e; }
+    header nav .mian_ul {
+      width: 310px;
+      margin-left: 40px; }
+      header nav .mian_ul li {
+        line-height: 52px;
+        height: 52px;
+        margin-left: 20px; }
+        header nav .mian_ul li a {
+          color: #d0d0d0;
+          font-size: 14px;
+          padding-left: 20px; }
+        header nav .mian_ul li .img1 {
+          background: url(../img/icon.png) -230px -27px no-repeat; }
+        header nav .mian_ul li .img2 {
+          background: url(../img/icon.png) -230px -47px no-repeat; }
+        header nav .mian_ul li .img3 {
+          background: url(../img/2.png) no-repeat; }
+        header nav .mian_ul li .img4 {
+          background: url(../img/icon.png) -105px -25px no-repeat; }
+    header nav .nav_right {
+      width: 330px;
+      position: relative;
+      top: 0;
+      left: 0; }
+      header nav .nav_right .service {
+        position: relative;
+        top: 0;
+        left: 0; }
+        header nav .nav_right .service a {
+          display: inline-block;
+          height: 52px;
+          line-height: 52px;
+          color: #fff; }
+        header nav .nav_right .service .service_header {
+          position: absolute;
+          width: 130px;
+          height: 240px;
+          top: 52px;
+          left: 0px;
+          display: none;
+          z-index: 2; }
+          header nav .nav_right .service .service_header ul li {
+            width: 130px;
+            height: 30px;
+            background: rgba(0, 0, 0, 0.7); }
+            header nav .nav_right .service .service_header ul li a {
+              display: inline-block;
+              width: 130px;
+              height: 30px;
+              line-height: 30px;
+              text-indent: 10px;
+              font-size: 14px;
+              color: #fff; }
+      header nav .nav_right .Sign_in {
+        position: relative; }
+        header nav .nav_right .Sign_in a {
+          display: inline-block;
+          width: 70px;
+          height: 52px;
+          line-height: 52px;
+          color: #fff;
+          margin-left: 10px;
+          background: url(../img/kuwo1.png) no-repeat center right; }
+        header nav .nav_right .Sign_in .entry_header {
+          position: absolute;
+          top: 52px;
+          left: 0px;
+          background: rgba(0, 0, 0, 0.7);
+          z-index: 2;
+          display: none; }
+          header nav .nav_right .Sign_in .entry_header ul li {
+            width: 160px;
+            height: 52px; }
+            header nav .nav_right .Sign_in .entry_header ul li a {
+              display: inline-block;
+              width: 120px;
+              height: 52px;
+              font-size: 14px;
+              line-height: 52px;
+              text-indent: 25px;
+              margin-left: 20px;
+              color: #fff;
+              border-bottom: 1px solid #8C8C8C; }
+            header nav .nav_right .Sign_in .entry_header ul li .kuwo {
+              background: url(../img/26.jpg) no-repeat center left; }
+            header nav .nav_right .Sign_in .entry_header ul li .xinlang {
+              background: url(../img/24.jpg) no-repeat center left; }
+            header nav .nav_right .Sign_in .entry_header ul li .qq {
+              background: url(../img/25.jpg) no-repeat center left;
+              border: none; }
+      header nav .nav_right .ipt {
+        width: 180px;
+        height: 26px;
+        background: #333333;
+        border: none;
+        outline: none;
+        border-radius: 13px;
+        text-indent: 15px;
+        position: absolute;
+        top: 14px;
+        right: 0;
+        color: #a9a9a9; }
+      header nav .nav_right .search {
+        position: absolute;
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url(../img/kuwo2.png) no-repeat center;
+        top: 18px;
+        right: 10px; }
+
+section {
+  width: 100%; }
+  section .carousel {
+    background: red;
+    width: 100%; }
+    section .carousel .item {
+      width: 100%; }
+      section .carousel .item img {
+        display: block;
+        width: 100%;
+        height: 750px; }
+    section .carousel .carousel-caption a {
+      display: inline-block;
+      line-height: 60px;
+      width: 300px;
+      height: 70px;
+      border-radius: 35px;
+      border: 5px solid #fff;
+      margin-left: 20px;
+      font-size: 35px;
+      color: #fff;
+      margin-bottom: 30px; }
+    section .carousel .carousel-caption a:hover {
+      color: #ffcd2d;
+      border-color: #ffcd2d;
+      text-decoration: none; }
+    section .carousel .carousel-indicators {
+      width: 300px;
+      height: 22px;
+      margin-bottom: 20px;
+      margin-left: -140px; }
+      section .carousel .carousel-indicators .active {
+        margin-left: 20px;
+        width: 15px;
+        height: 15px;
+        background: #ffcd2d; }
+      section .carousel .carousel-indicators li {
+        width: 15px;
+        height: 15px;
+        margin-left: 20px; }
+  section .section_top {
+    width: 100%;
+    height: 400px;
+    background: #f2f2f2; }
+    section .section_top .Propaganda {
+      height: 320px;
+      width: 1200px;
+      margin: 0 auto;
+      padding-top: 40px; }
+  section .section_bottom {
+    width: 100%; }
+    section .section_bottom .song_sheet {
+      width: 1200px;
+      height: 100%;
+      line-height: 60px;
+      margin: 0 auto; }
+      section .section_bottom .song_sheet a {
+        font-size: 14px;
+        color: #999999; }
+      section .section_bottom .song_sheet span {
+        font-size: 22px;
+        font-weight: bold; }
+    section .section_bottom .song_sheet_content {
+      width: 1200px;
+      margin: 0 auto; }
+      section .section_bottom .song_sheet_content ul {
+        width: 100%; }
+        section .section_bottom .song_sheet_content ul li {
+          margin-left: 25px;
+          width: 220px;
+          height: 270px;
+          position: relative; }
+          section .section_bottom .song_sheet_content ul li a img {
+            width: 220px;
+            height: 220px; }
+          section .section_bottom .song_sheet_content ul li .cover {
+            width: 220px;
+            height: 60px;
+            line-height: 60px;
+            position: absolute;
+            top: 160px;
+            left: 0; }
+            section .section_bottom .song_sheet_content ul li .cover span {
+              background: url(../img/icon.png) -230px -45px no-repeat;
+              color: #fff;
+              padding-left: 20px;
+              margin-left: 10px; }
+            section .section_bottom .song_sheet_content ul li .cover a {
+              display: inline-block;
+              width: 30px;
+              height: 30px;
+              margin-top: 15px;
+              margin-right: 10px;
+              display: none;
+              background: url(../img/icon.png) no-repeat -242px -163px; }
+          section .section_bottom .song_sheet_content ul li p {
+            width: 220px;
+            height: 50px;
+            line-height: 50px;
+            font-size: 14px;
+            color: #333333;
+            text-indent: 10px; }
+    section .section_bottom .singer {
+      width: 1200px;
+      height: 26px;
+      line-height: 26px;
+      margin: 0 auto; }
+      section .section_bottom .singer span {
+        font-size: 24px;
+        font-weight: bold; }
+      section .section_bottom .singer a {
+        font-size: 14px;
+        color: #999999; }
+    section .section_bottom .singer_contenr {
+      width: 1200px;
+      padding-bottom: 20px;
+      margin: 0 auto; }
+      section .section_bottom .singer_contenr .singer_ul {
+        width: 1200px; }
+        section .section_bottom .singer_contenr .singer_ul li {
+          width: 220px;
+          height: 360px;
+          margin-left: 25px;
+          margin-top: 20px;
+          position: relative; }
+          section .section_bottom .singer_contenr .singer_ul li a img {
+            width: 220px;
+            height: 360px; }
+          section .section_bottom .singer_contenr .singer_ul li .cover_singer {
+            width: 220px;
+            height: 86px;
+            background: rgba(0, 0, 0, 0.7);
+            position: absolute;
+            top: 274px;
+            left: 0; }
+            section .section_bottom .singer_contenr .singer_ul li .cover_singer ul {
+              width: 100%; }
+              section .section_bottom .singer_contenr .singer_ul li .cover_singer ul li {
+                width: 100%;
+                text-indent: 15px;
+                margin: 0;
+                font-size: 12px;
+                font-weight: 500;
+                margin-top: 10px;
+                height: 16px;
+                color: #fff;
+                margin-bottom: 8px; }
+                section .section_bottom .singer_contenr .singer_ul li .cover_singer ul li .Lok_Fu {
+                  padding-left: 20px;
+                  background: url(../img/icon.png) no-repeat -105px -2px; }
+                section .section_bottom .singer_contenr .singer_ul li .cover_singer ul li .love {
+                  padding-left: 20px;
+                  background: url(../img/icon.png) no-repeat -230px 0;
+                  margin-left: 15px; }
+          section .section_bottom .singer_contenr .singer_ul li #singer_contenr_hide {
+            display: none;
+            position: absolute;
+            background: rgba(0, 0, 0, 0.7);
+            width: 220px;
+            height: 360px;
+            z-index: 1;
+            top: 0;
+            left: 0; }
+            section .section_bottom .singer_contenr .singer_ul li #singer_contenr_hide #hide_hot {
+              width: 196px;
+              height: 54px;
+              line-height: 54px;
+              margin-left: 14px; }
+              section .section_bottom .singer_contenr .singer_ul li #singer_contenr_hide #hide_hot .hot_word {
+                font-size: 18px;
+                color: #fffaff; }
+              section .section_bottom .singer_contenr .singer_ul li #singer_contenr_hide #hide_hot .see {
+                color: #fffaff;
+                font-size: 14px; }
+            section .section_bottom .singer_contenr .singer_ul li #singer_contenr_hide ul {
+              width: 220px; }
+              section .section_bottom .singer_contenr .singer_ul li #singer_contenr_hide ul li {
+                width: 196px;
+                height: 16px;
+                line-height: 16px;
+                margin-left: 14px;
+                margin-top: 13px;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis; }
+                section .section_bottom .singer_contenr .singer_ul li #singer_contenr_hide ul li a {
+                  font-size: 14px;
+                  color: #fffaff; }
+            section .section_bottom .singer_contenr .singer_ul li #singer_contenr_hide .Play_all {
+              display: inline-block;
+              width: 185px;
+              padding: 6px 0;
+              font-size: 16px;
+              text-align: center;
+              border-radius: 18px;
+              border: 2px solid #fffaff;
+              color: #fffaff;
+              margin-left: 15px;
+              margin-top: 21px; }
+    section .section_bottom .section_img {
+      width: 1200px;
+      height: 128px;
+      margin: 0 auto; }
+
+footer {
+  width: 100%; }
+  footer #Cooperative_partner {
+    width: 1200px;
+    margin: 0 auto; }
+    footer #Cooperative_partner .cooperation_son h2 {
+      font-size: 18px;
+      color: #4c454c; }
+    footer #Cooperative_partner .cooperation_son span {
+      color: #4c454c;
+      font-size: 14px; }
+    footer #Cooperative_partner ul {
+      margin-top: 10px;
+      padding-bottom: 8px; }
+      footer #Cooperative_partner ul li {
+        margin-bottom: 10px;
+        margin-left: 15px; }
+        footer #Cooperative_partner ul li a {
+          font-size: 12px;
+          color: #1c67ac; }
+        footer #Cooperative_partner ul li a:hover {
+          text-decoration: underline; }
+  footer .statement_footer {
+    width: 1200px;
+    margin: 0 auto;
+    background: #181818; }
+    footer .statement_footer p, footer .statement_footer p a {
+      text-align: center;
+      color: #999999; }
+    footer .statement_footer p {
+      padding-top: 15px; }
+
+/*# sourceMappingURL=kuwo.css.map */
